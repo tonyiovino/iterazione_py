@@ -5,7 +5,7 @@ while colonna <= 10:
     while riga <= 10:
         prodotto = riga * colonna
 
-        print(prodotto)
+        print("%5d"% (prodotto), end="")
 
         riga+=1
 
